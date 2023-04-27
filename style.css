@@ -7,31 +7,27 @@
 }
 
 body {
-	background: #0f0f0f;
+	background: #FFFFFF;
 	color: white;
+overflow: hidden;
+}
+#fondo {
+width: 100vw;
+left:0;
+bottom:0;
+object-fit: cover;
+z-index: -1;
+position: relative;
 }
 
 /* --------------------------Header del sitio---------------------------- */
 header {
-	background-color: #040032;
+	background-color: #C6C6C6;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 150px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.overlay {
-	position: absolute;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	height: 150px;
-	right: 0;
-	bottom: 0;
-	padding: 0 !important;
-	margin: 0 !important;
-	background-color: rgba(10, 10, 10, 0.3);
 }
 
 nav {
@@ -62,10 +58,12 @@ nav li span {
 }
 
 nav li a {
-	padding: 5px;
-	background-color: #fff;
+	padding: 20px;
+	background-color: #9B9B9B;
 	text-decoration: none;
-	border-radius: 10px;
+	border-radius: 30px;
+	font-size:25px;
+	color: white;
 }
 
 nav li:hover {
@@ -84,8 +82,5 @@ nav li:hover {
 	color: #fff;
 	cursor: pointer;
 	text-decoration: none;
-}
 
-#logo {
-	border-radius: 50%;
 }
